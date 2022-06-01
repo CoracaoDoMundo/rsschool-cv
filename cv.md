@@ -45,8 +45,9 @@ Always do have a positive outlook on life situations, curious about new technolo
  
  
 ```
-XXX
-XXX
+function multiply(a, b){
+  return a * b
+}
 ```
  
  
