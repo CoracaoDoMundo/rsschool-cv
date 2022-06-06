@@ -1,2 +1,3 @@
 # rsschool-cv
-https://CoracaoDoMundo.github.io/rsschool-cv/cv
+
+https://CoracaoDoMundo.github.io/rsschool-cv/
