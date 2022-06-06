@@ -1,6 +1,7 @@
 # Anna Lazakovich
 
 
+[Photo Lazakovich](/Photo_Lazakovich_1x1.png)
 
  
 **Location:** Saint-Petersburg, Russia. Ready to relocate.
