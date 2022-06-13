@@ -1,14 +1,259 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf8">
-    <title>CV</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/icon-cv.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV Lazakovich</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Work experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
+    <main class="main">
+      <div class="aside">
+        <img
+          src="./assets/img/Photo_Lazakovich_1x1.jpeg"
+          alt="Lazakovich-photo"
+          class="photo"
+          width="300"
+        />
+        <h1 class="section-title">Anna&nbsp;Lazakovich</h1>
+        <div class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <p class="icon-block">
+            <img
+              src="./assets/svg/home.svg"
+              alt="Location"
+              class="svg"
+              width="30"
+            />
+            <span>: Saint-Petersburg, Russia.</span>
+          </p>
+          <p class="icon-block">
+            <img
+              src="./assets/svg/phone.svg"
+              alt="Phone"
+              class="svg"
+              width="30"
+            />
+            <a href="tel:+79213587773" class="link"
+              ><span> : +7 (921) 358-7773</span></a
+            >
+          </p>
+          <p class="icon-block">
+            <img
+              src="./assets/svg/email.svg"
+              alt="Email"
+              class="svg"
+              width="30"
+            />
+            <a href="mailto:lazakovich@gmail.com" class="link">
+              <span>: lazakovich@gmail.com</span></a
+            >
+          </p>
+          <p class="icon-block">
+            <img
+              src="./assets/svg/discord.svg"
+              alt="Discord"
+              class="svg"
+              width="30"
+            />
+            <a
+              href="https://discordapp.com/users/980069745850204180"
+              class="link"
+            >
+              <span>: Ann (@CoracaoDoMundo)</span></a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p class="content">
+          Marketing manager with more than 10 years experience, frontend
+          development is a current zone of interests. <br>
+          High level of communication skills and high-quality work in an intensive
+          multitasking mode.Thanks to lots of years of productive
+          work as a head of marketing department, I am same good in a role of
+          team leader and team player. <br>
+          Ready to take responsibilities and not
+          afraid of tasks without solutions… yet. <br>
+          Always do have a positive
+          outlook on life situations, curious about new technologies theme,
+          active lifestyle admirer, greedy for traveling.
+        </p>
+      </div>
+      <div class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS, bootstrap (basic proficiency)</li>
+          <li>Adobe Photoshop and Corel DRAW (basic proficiency)</li>
+          <li>Jira</li>
+          <li>Figma</li>
+          <li>
+            Google Analytics, Yandex Mertrica, CallTouch (analytic system)
+          </li>
+          <li>MacOS Office & MS Office</li>
+        </ul>
+      </div>
+      <div class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre>
+            function multiply(a, b){
+              return a * b
+            }
+            </pre
+        >
+      </div>
+      <div class="section" id="experience">
+        <h2 class="section-title">Work experience</h2>
+        <ul>
+          <li class="first-level">
+            <b>Head of marketing and advertising department</b> |
+            Saint-Petersburg | 7 years (current position)
+            <p>
+              <a href="https://www.major-auto.ru" class="link"
+                >Major Auto SPb</a
+              >
+              - car sales holding, 5 dealerships and 9 car brands at the
+              beginning of 2022.
+            </p>
+            <ul>
+              <li>
+                Building of successfully working team from the scratch twice.
+              </li>
+              <li>
+                Spearheaded marketing support of opening of 2 new dealerships.
+              </li>
+              <li>Directed launch of more than 20 new car models.</li>
+              <li>
+                Decrease CPL for used cars brand on 45% and on 25% for new
+                Mercedes-Benz cars by introduction the system of end-to-end
+                analytics.
+              </li>
+            </ul>
+          </li>
+          <li class="first-level">
+            <p>
+              <b>Brand-manager</b> | Saint-Petersburg | 2,5 years | 02.2013 –
+              06.2015
+            </p>
+            <p>3 dealerships and 6 brands in the beginning of 2013.</p>
+          </li>
+          <li class="first-level">
+            <p>
+              <b>Marketing specialist</b> | Saint-Petersburg | 2,5 years |
+              09.2010 – 02.2013
+            </p>
+          </li>
+          <li class="first-level">
+            <p>
+              <b>Office-manager / Advertising specialist</b> | Saint-Petersburg
+              | 1,5 years | 05.2009 – 09.2010
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li>
+            <b>2010</b> | Specialist (State and municipal administration
+            manager),
+            <a href="https://www.spbstu.ru" class="link"
+              >Polytechnic university</a
+            >
+            | Saint-Petersburg, Russia
+          </li>
+          <li>
+            <b>2017</b> | Retail marketing professional development program
+            Q-Marketing by Mercedes-Benz RUS JSC | Moscow, Russia
+          </li>
+          <li>
+            <b>2021</b> | Course “Project management practice in IT” |
+            <a href="https://stepik.org/course/50656/syllabus" class="link"
+              >stepik.org</a
+            >
+          </li>
+          <li>
+            <b>2022</b> | Course «Agile. Introduction» |
+            <a href="https://stepik.org/course/14990/syllabus" class="link"
+              >stepik.org</a
+            >
+          </li>
+          <li>
+            <b>2022</b> | Course «WEB-development for beginners: HTML and CSS» |
+            <a href="https://stepik.org/course/38218/syllabus" class="link"
+              >stepik.org</a
+            >
+          </li>
+          <li>
+            <b>2022</b> | Course «JavaScript/Front-end» |
+            <a href="https://rs.school/js-stage0/" class="link">rs.school </a>–
+            in progress
+          </li>
+        </ul>
+      </div>
+      <div class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li><b>Russian</b> – native speaker</li>
+          <li><b>English</b> – B2</li>
+          <li><b>Portuguese</b> – A2</li>
+        </ul>
+      </div>
     </main>
-    <footer>
+    <footer class="footer">
+      <div class="footer-git">
+        <img
+          src="./assets/svg/github.svg"
+          alt="GitHub"
+          class="svg"
+          width="30"
+        />
+        <a href="https://github.com/CoracaoDoMundo" class="link"
+          >@CoracaoDoMundo</a
+        >
+      </div>
+      <div class="time"> &copy; 2022</div>
+      <a href="https://rs.school/js/" class="RS-logo"
+        ><img
+          src="./assets/img/rs_school-logo.png"
+          alt="RSschool-logo"
+          width="100"
+      /></a>
     </footer>
   </body>
 </html>
